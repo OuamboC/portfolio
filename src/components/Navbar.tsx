@@ -175,7 +175,9 @@ const Navbar = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.1 }}
                   className="block py-3 px-4 text-gray-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-all duration-300"
-                  onClick={() => setIsOpen(false)}
+                  onClick={() => {
+                    setTimeout(() => setIsOpen(false), 100);
+                  }}
                 >
                   {link.name}
                 </motion.a>
