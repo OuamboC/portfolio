@@ -176,7 +176,7 @@ const Navbar = () => {
                   transition={{ delay: index * 0.1 }}
                   className="block py-3 px-4 text-gray-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-all duration-300"
                   onClick={() => {
-                    setTimeout(() => setIsOpen(false), 100);
+                    setTimeout(() => setIsOpen(false), 300);
                   }}
                 >
                   {link.name}
