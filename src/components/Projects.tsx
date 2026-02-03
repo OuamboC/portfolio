@@ -100,7 +100,7 @@ const Projects = () => {
                   })()}
 
                   {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
@@ -109,6 +109,28 @@ const Projects = () => {
                         {tag}
                       </span>
                     ))}
+                  </div>
+
+                  {/* Mobile-visible Links */}
+                  <div className="flex gap-3 md:hidden">
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition-colors"
+                    >
+                      <FaExternalLinkAlt size={14} />
+                      Live
+                    </a>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 bg-slate-700 text-white text-sm rounded-lg hover:bg-slate-600 transition-colors"
+                    >
+                      <FaGithub size={14} />
+                      GitHub
+                    </a>
                   </div>
                 </div>
               </motion.div>
