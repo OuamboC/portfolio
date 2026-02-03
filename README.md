@@ -1,73 +1,111 @@
-# React + TypeScript + Vite
+# Canis Ouambo | Full-Stack Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/Live-canisouambo.vercel.app-blue?style=for-the-badge&logo=vercel)](https://canisouambo.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/canis-ouambo)
 
-Currently, two official plugins are available:
+A modern, responsive portfolio website showcasing my projects and skills as a Full-Stack Software Engineer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Preview](public/projects/portfolio.png)
 
-## React Compiler
+## About Me
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+I'm a **First-Class Software Engineering graduate** from Manchester Metropolitan University with a passion for building secure, scalable applications. My experience spans full-stack development using **Java, Spring Boot, React**, and modern cloud technologies.
 
-## Expanding the ESLint configuration
+I enjoy solving complex problems and turning ideas into robust, production-ready systems. From multi-tenant SaaS platforms to real-time social applications, I focus on **clean code, performance, and delivering real value** to users and businesses.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Languages
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Frontend
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+### Backend
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+
+### Databases
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+### Cloud & DevOps
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+## Featured Projects
+
+### [WengHR](https://github.com/OuamboC/WengHR)
+
+Multi-tenant HR Management System with employee management, customizable leave policies, and shift scheduling.
+
+- **Highlights:** 4-tier RBAC, JWT authentication, i18n support
+- **Impact:** Beta tested with 100+ users across multiple organizations
+- **Tech:** Java, Spring Boot, React Native, MySQL, Docker
+
+### [Chirrup](https://github.com/OuamboC/Chirrup)
+
+Full-stack social media platform with user profiles, posts, and likes.
+
+- **Highlights:** Optimized backend queries reducing feed loading time by 40%
+- **Impact:** Supporting 200+ active users
+- **Tech:** Node.js, Express.js, Vue.js, SQLite, Tailwind CSS
+
+### [LM Global Solutions](https://github.com/OuamboC/LM-Global-Solutions)
+
+Professional business website for an import/export client.
+
+- **Highlights:** Bilingual support (French/English), responsive design
+- **Impact:** Delivered same-day turnaround
+- **Tech:** React, Tailwind CSS, Vite, Vercel
+
+## Portfolio Features
+
+- **Internationalization** - Available in English, French, and Spanish
+- **Fully Responsive** - Optimized for all devices
+- **Modern UI** - Smooth animations with Framer Motion
+- **Fast Performance** - Built with Vite for optimal loading speeds
+- **SEO Optimized** - Structured for search engine visibility
+
+## Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/OuamboC/portfolio.git
+
+# Navigate to the project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Get in Touch
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Portfolio:** [canisouambo.vercel.app](https://canisouambo.vercel.app/)
+- **LinkedIn:** [linkedin.com/in/canis-ouambo](https://linkedin.com/in/canis-ouambo)
+- **GitHub:** [github.com/OuamboC](https://github.com/OuamboC)
+
+---
+
+If you found this portfolio interesting, feel free to star the repo!
