@@ -1,7 +1,7 @@
 # Canis Ouambo | Full-Stack Software Engineer Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live-canisouambo.vercel.app-blue?style=for-the-badge&logo=vercel)](https://canisouambo.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/canis-ouambo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/canis-breal-ouambo/)
 
 A modern, responsive portfolio website showcasing my projects and skills as a Full-Stack Software Engineer.
 
@@ -50,7 +50,7 @@ I enjoy solving complex problems and turning ideas into robust, production-ready
 
 ## Featured Projects
 
-### [WengHR](https://github.com/OuamboC/WengHR)
+### [WengHR](https://weng-hr.vercel.app/)
 
 Multi-tenant HR Management System with employee management, customizable leave policies, and shift scheduling.
 
@@ -58,7 +58,7 @@ Multi-tenant HR Management System with employee management, customizable leave p
 - **Impact:** Beta tested with 100+ users across multiple organizations
 - **Tech:** Java, Spring Boot, React Native, MySQL, Docker
 
-### [Chirrup](https://github.com/OuamboC/Chirrup)
+### [Chirrup](https://chirrup-social-media.vercel.app/)
 
 Full-stack social media platform with user profiles, posts, and likes.
 
@@ -66,7 +66,7 @@ Full-stack social media platform with user profiles, posts, and likes.
 - **Impact:** Supporting 200+ active users
 - **Tech:** Node.js, Express.js, Vue.js, SQLite, Tailwind CSS
 
-### [LM Global Solutions](https://github.com/OuamboC/LM-Global-Solutions)
+### [LM Global Solutions](https://www.lmglobals.com/)
 
 Professional business website for an import/export client.
 
@@ -103,7 +103,7 @@ npm run dev
 I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
 
 - **Portfolio:** [canisouambo.vercel.app](https://canisouambo.vercel.app/)
-- **LinkedIn:** [linkedin.com/in/canis-ouambo](https://linkedin.com/in/canis-ouambo)
+- **LinkedIn:** [linkedin.com/in/canis-ouambo](https://www.linkedin.com/in/canis-breal-ouambo/)
 - **GitHub:** [github.com/OuamboC](https://github.com/OuamboC)
 
 ---
