@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
       "A modern, responsive portfolio website with internationalization support (EN/FR/ES). Built with React, TypeScript, Tailwind CSS, and Framer Motion for smooth animations.",
     image: "/projects/portfolio.png",
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "i18n"],
-    liveUrl: "https://canisouambo.vercel.app/",
+    liveUrl: "https://www.canisouambo.tech/",
     githubUrl: "https://github.com/OuamboC/portfolio",
   },
 ];

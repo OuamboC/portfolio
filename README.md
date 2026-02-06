@@ -1,6 +1,6 @@
 # Canis Ouambo | Full-Stack Software Engineer Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live-canisouambo.vercel.app-blue?style=for-the-badge&logo=vercel)](https://canisouambo.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live-canisouambo.tech-blue?style=for-the-badge&logo=vercel)](https://www.canisouambo.tech/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/canis-breal-ouambo/)
 
 A modern, responsive portfolio website showcasing my projects and skills as a Full-Stack Software Engineer.
@@ -102,7 +102,7 @@ npm run dev
 
 I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
 
-- **Portfolio:** [canisouambo.vercel.app](https://canisouambo.vercel.app/)
+- **Portfolio:** [canisouambo.tech](https://www.canisouambo.tech/)
 - **LinkedIn:** [linkedin.com/in/canis-ouambo](https://www.linkedin.com/in/canis-breal-ouambo/)
 - **GitHub:** [github.com/OuamboC](https://github.com/OuamboC)
 
