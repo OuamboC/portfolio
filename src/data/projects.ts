@@ -24,7 +24,7 @@ export const projectsData: Project[] = [
       "Docker",
       "Snyk",
     ],
-    liveUrl: "https://weng-hr.vercel.app/",
+    liveUrl: "https://www.wenghr.me/",
     githubUrl: "https://github.com/OuamboC/WengHR",
   },
   {
