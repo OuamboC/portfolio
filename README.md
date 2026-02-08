@@ -50,7 +50,7 @@ I enjoy solving complex problems and turning ideas into robust, production-ready
 
 ## Featured Projects
 
-### [WengHR](https://weng-hr.vercel.app/)
+### [WengHR](https://www.wenghr.me/)
 
 Multi-tenant HR Management System with employee management, customizable leave policies, and shift scheduling.
 
