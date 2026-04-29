@@ -64,16 +64,18 @@ const Projects = () => {
                     >
                       <FaExternalLinkAlt size={18} />
                     </motion.a>
-                    <motion.a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="p-3 bg-slate-700 text-white rounded-full hover:bg-slate-600 transition-colors"
-                    >
-                      <FaGithub size={18} />
-                    </motion.a>
+                    {project.githubUrl ? (
+                      <motion.a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="p-3 bg-slate-700 text-white rounded-full hover:bg-slate-600 transition-colors"
+                      >
+                        <FaGithub size={18} />
+                      </motion.a>
+                    ) : null}
                   </div>
                 </div>
 
@@ -122,15 +124,17 @@ const Projects = () => {
                       <FaExternalLinkAlt size={14} />
                       Live
                     </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-slate-700 text-white text-sm rounded-lg hover:bg-slate-600 transition-colors"
-                    >
-                      <FaGithub size={14} />
-                      GitHub
-                    </a>
+                    {project.githubUrl ? (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-4 py-2 bg-slate-700 text-white text-sm rounded-lg hover:bg-slate-600 transition-colors"
+                      >
+                        <FaGithub size={14} />
+                        GitHub
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </motion.div>

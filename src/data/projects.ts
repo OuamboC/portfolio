@@ -5,7 +5,7 @@ export interface Project {
   image: string;
   tags: string[];
   liveUrl: string;
-  githubUrl: string;
+  githubUrl?: string;
 }
 
 export const projectsData: Project[] = [
@@ -25,7 +25,6 @@ export const projectsData: Project[] = [
       "Snyk",
     ],
     liveUrl: "https://www.wenghr.me/",
-    githubUrl: "https://github.com/OuamboC/WengHR",
   },
   {
     id: 2,
