@@ -69,7 +69,7 @@ export const fr = {
         id: 1,
         title: "WengHR",
         description:
-          "Système de gestion RH multi-tenant avec gestion des employés, politiques de congés personnalisables et planification des horaires. Comprend un RBAC à 4 niveaux, l'authentification JWT et le support i18n. Testé en version bêta avec plus de 100 utilisateurs dans plusieurs organisations.",
+          "Système de gestion RH multi-tenant avec gestion des employés, politiques de congés au niveau des locataires, paramètres d'entreprise et planification des horaires. Comprend un RBAC à 4 niveaux, l'authentification JWT, l'isolation des données au niveau des locataires, la vérification par email et le support i18n (EN/FR/ES). Testé en version bêta avec plus de 100 utilisateurs dans plusieurs organisations.",
       },
       {
         id: 2,

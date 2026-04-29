@@ -68,7 +68,7 @@ export const en = {
         id: 1,
         title: "WengHR",
         description:
-          "Multi-tenant HR Management System with employee management, customisable leave policies, and shift scheduling. Features 4-tier RBAC, JWT authentication, and i18n support. Beta tested with 100+ users across multiple organisations.",
+          "Multi-tenant HR Management System with employee management, tenant-scoped leave policies and company settings, and shift scheduling. Features 4-tier RBAC, JWT authentication, tenant-level data isolation, email verification and i18n support (EN/FR/ES). Beta tested with 100+ users across multiple organisations.",
       },
       {
         id: 2,

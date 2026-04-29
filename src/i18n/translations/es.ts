@@ -69,7 +69,7 @@ export const es = {
         id: 1,
         title: "WengHR",
         description:
-          "Sistema de gestión de RRHH multi-tenant con gestión de empleados, políticas de permisos personalizables y programación de turnos. Incluye RBAC de 4 niveles, autenticación JWT y soporte i18n. Probado en beta con más de 100 usuarios en múltiples organizaciones.",
+          "Sistema de gestión de RRHH multi-tenant con gestión de empleados, políticas de permisos con ámbito de inquilino, configuración de empresas y programación de turnos. Incluye RBAC de 4 niveles, autenticación JWT, aislamiento de datos a nivel de inquilino, verificación de correo electrónico y soporte i18n (EN/FR/ES). Probado en beta con más de 100 usuarios en múltiples organizaciones.",
       },
       {
         id: 2,
